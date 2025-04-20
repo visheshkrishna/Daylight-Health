@@ -1,4 +1,4 @@
-name = "daylight-health-app"
+name = "daylighthealth"
 main = ".vercel/output/static/_worker.js"
 compatibility_date = "2025-04-19"
 
