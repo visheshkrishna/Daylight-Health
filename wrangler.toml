@@ -1,10 +1,10 @@
 name               = "daylighthealth"
-account_id         = "c01c7dbd930d959df746f7c02165f34b"   
+account_id         = "c01c7dbd930d959df746f7c02165f34b"   # ← your real Cloudflare account ID
 compatibility_date = "2025-04-20"
 compatibility_flags = ["nodejs_compat"]
 
-# point at the folder that Next‑on‑Pages generated
-main = ".vercel/output/static/_worker.js"
+# Must point directly at the generated index.js, not the folder
+main = ".vercel/output/static/_worker.js/index.js"
 
 [site]
   bucket = ".vercel/output/static"
