@@ -1,6 +1,6 @@
 
 name               = "daylighthealth"
-account_id         = "564f4a1110a03a853cb2454dfba772a1d5f98" 
+account_id         = "c01c7dbd930d959df746f7c02165f34b" 
 main               = ".vercel/output/static/_worker.js"
 type               = "javascript"
 compatibility_date = "2025-04-20"
