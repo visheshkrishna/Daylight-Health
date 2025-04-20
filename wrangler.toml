@@ -1,13 +1,13 @@
 name               = "daylighthealth"
-account_id         = "c01c7dbd930d959df746f7c02165f34b"     
+account_id         = "c01c7dbd930d959df746f7c02165f34b"   
 compatibility_date = "2025-04-20"
 compatibility_flags = ["nodejs_compat"]
 
-main = ".vercel/output/static/_worker.js/index.js"
+# point at the folder that Next‑on‑Pages generated
+main = ".vercel/output/static/_worker.js"
 
-# serve all of your prerendered HTML/CSS/JS here
 [site]
-bucket = ".vercel/output/static"
+  bucket = ".vercel/output/static"
 
 [vars]
-NEXT_RUNTIME = "edge"
+  NEXT_RUNTIME = "edge"
