@@ -1,9 +1,16 @@
-name = "daylighthealth"
-main = ".vercel/output/static/_worker.js"
-compatibility_date = "2025-04-19"
+
+name               = "daylighthealth"
+account_id         = "564f4a1110a03a853cb2454dfba772a1d5f98" 
+main               = ".vercel/output/static/_worker.js"
+type               = "javascript"
+compatibility_date = "2025-04-20"
+compatibility_flags = ["nodejs_compat"]
 
 [build]
-command = "npm run pages:build"
+  command = "npm run pages:build"
+
+[site]
+  bucket = ".vercel/output/static"
 
 [vars]
-NEXT_RUNTIME = "edge"
+  NEXT_RUNTIME = "edge"
