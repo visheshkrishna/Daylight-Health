@@ -9,7 +9,7 @@
     "lint": "next lint",
     "pages:build": "npx @cloudflare/next-on-pages",
     "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat",
-    "deploy": "npm run pages:build && wrangler deploy"
+    "deploy": "next build && npm run pages:build && npx wrangler deploy"
   },
   "dependencies": {
     "next": "15.3.1",

@@ -1,9 +1,9 @@
 name               = "daylighthealth"
-account_id         = "c01c7dbd930d959df746f7c02165f34b"   # ← your real Cloudflare account ID
+account_id         = "c01c7dbd930d959df746f7c02165f34b"
 compatibility_date = "2025-04-20"
 compatibility_flags = ["nodejs_compat"]
 
-# Must point directly at the generated index.js, not the folder
+# Update this path to match where the file is actually being generated
 main = ".vercel/output/static/_worker.js/index.js"
 
 [site]
