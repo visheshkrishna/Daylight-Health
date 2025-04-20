@@ -1,0 +1,10 @@
+name = "daylighthealth"
+main = ".vercel/output/static/_worker.js"
+compatibility_date = "2025-04-20"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "npm run pages:build"
+
+[vars]
+NEXT_RUNTIME = "edge"
