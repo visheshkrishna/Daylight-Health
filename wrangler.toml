@@ -1,7 +1,6 @@
-name = "daylighthealth"
+name = "daylight-health-app"
 main = ".vercel/output/static/_worker.js"
-compatibility_date = "2025-04-20"
-compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2025-04-19"
 
 [build]
 command = "npm run pages:build"
